@@ -1,0 +1,6 @@
+{
+  "name": "MIRO CHAT",
+  "description": "A companion that understands you. Talk naturally, share your thoughts, and connect with Miro — a minimal, warm AI companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

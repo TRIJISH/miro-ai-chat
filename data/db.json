@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "guest_user",
+      "name": "Guest Friend",
+      "email": "guest@miro.chat",
+      "passwordHash": "",
+      "avatar": "✦",
+      "createdAt": "2026-10-06T17:46:07.706Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_welcome",
+      "userId": "guest_user",
+      "title": "First chat with Miro",
+      "personality": "friendly",
+      "createdAt": "2026-10-06T17:46:07.706Z",
+      "updatedAt": "2026-10-06T17:46:07.706Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_welcome",
+      "conversationId": "conv_welcome",
+      "role": "assistant",
+      "content": "Hey, I'm Miro. I'm really glad you're here. How are you feeling today?",
+      "emotion": "happy",
+      "createdAt": "2026-10-06T17:46:07.706Z"
+    }
+  ],
+  "memories": [
+    {
+      "id": "mem_1",
+      "userId": "guest_user",
+      "category": "general",
+      "memory": "Appreciates quiet, thoughtful conversations and clean spaces.",
+      "createdAt": "2026-10-06T17:46:07.706Z"
+    }
+  ],
+  "settings": {
+    "guest_user": {
+      "userId": "guest_user",
+      "personality": "friendly",
+      "voiceEnabled": true,
+      "voiceRate": 1,
+      "voicePitch": 1.05,
+      "voiceName": "",
+      "autoPlayVoice": false,
+      "theme": "system",
+      "animationsEnabled": true
+    }
+  }
+}
